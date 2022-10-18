@@ -34,7 +34,7 @@ Public Kirka.io CSS by michaelpa#1996
 /* Animation */
 @-webkit-keyframes glow {
     from {
-        text-shadow: 0 0 5px #fff, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 6px #ae50e4, 0 0 7px #ae50e4, 0 0 8px #ae50e4;
+        text-shadow: 0 0 5px #fff, 0 0 5px #D62639, 0 0 5px #D62639, 0 0 5px #D62639, 0 0 6px #D62639, 0 0 7px #D62639, 0 0 8px #D62639;
     }
 }
 
@@ -82,7 +82,12 @@ Public Kirka.io CSS by michaelpa#1996
 }
 
 .head-right > .clan-tag {
-	animation: rainbow 4s linear infinite;
+    animation: glow 2s ease-in-out infinite alternate !important;
+    padding-left: 20%;
+}
+
+.clan-tag {
+    animation: glow 2s ease-in-out infinite alternate;
     padding-left: 20%;
 }
 
