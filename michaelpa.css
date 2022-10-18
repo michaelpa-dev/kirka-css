@@ -94,7 +94,6 @@ Public Kirka.io CSS by michaelpa#1996
     background: url(https://media.discordapp.net/attachments/851731676731801661/1031999079535882240/Wallpaper.png) repeat !important;
     height: 300%;
     background-position: 0px 0px;
-    -webkit-animation: animate 10s linear infinite!important;
 }
 
 .end-modal {
