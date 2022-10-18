@@ -80,8 +80,13 @@ Public Kirka.io CSS by michaelpa#1996
 			color: rgb(255,0,127);
 		}
 }
+
  .clan-tag {
-	animation: rainbow 1.3s linear infinite;
+	animation: rainbow 4s linear infinite;
+}
+
+.nickname {
+    color: #cb1414;
 }
 
 /* Background */
@@ -327,6 +332,8 @@ Public Kirka.io CSS by michaelpa#1996
     background-image: url(https://cdn.discordapp.com/attachments/851731676731801661/1032013411145486396/michaelpa.gif) !important;
     background-size: 100% !important;
     background-position: 0, 0 !important;
+    border: 4px solid #101216 !important;
+    background-color: #101216 !important;
 }
 
 .left-interface .avatar-info:hover,
