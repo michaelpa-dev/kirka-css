@@ -323,6 +323,14 @@ Public Kirka.io CSS by michaelpa#1996
 	border: none;
 }
 
+.avatar {
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    /*width of the image*/
+    background: url(https://cdn.discordapp.com/attachments/851731676731801661/1032013411145486396/michaelpa.gif) left top no-repeat;
+}
+
 .left-interface .avatar-info:hover,
 .left-interface .user-info:hover {
     background: transparent;
