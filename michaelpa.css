@@ -83,11 +83,12 @@ Public Kirka.io CSS by michaelpa#1996
 
 .head-right > .clan-tag {
     animation: glow 2s ease-in-out infinite alternate !important;
+    color: #D62639;
     padding-left: 20%;
 }
 
 .clan-tag {
-    animation: glow 2s ease-in-out infinite alternate;
+	animation: rainbow 4s linear infinite;
     padding-left: 20%;
 }
 
