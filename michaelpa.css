@@ -289,7 +289,7 @@ Public Kirka.io CSS by michaelpa#1996
 .left-interface .profile {
     background: rgba(55, 55, 55, .61);
     backdrop-filter: blur(5px);
-    width: 100%;
+    width: 2560px;
     border-bottom: 5px solid #ffffff1c;
 }
 
@@ -325,8 +325,8 @@ Public Kirka.io CSS by michaelpa#1996
 
 .avatar {
     background-image: url(https://cdn.discordapp.com/attachments/851731676731801661/1032013411145486396/michaelpa.gif) !important;
-    width: 100%;
-    height: 100%
+    background-size: 100% !important;
+    background-position: 0, 0 !important;
 }
 
 .left-interface .avatar-info:hover,
