@@ -85,10 +85,6 @@ Public Kirka.io CSS by michaelpa#1996
 	animation: rainbow 4s linear infinite;
 }
 
-.nickname {
-    color: #cb1414;
-}
-
 /* Background */
 .pattern-bg,
 .bg-radial {
@@ -96,7 +92,7 @@ Public Kirka.io CSS by michaelpa#1996
 }
 
 .interface .background{
-    background: url(https://media.discordapp.net/attachments/851731676731801661/1031999079535882240/Wallpaper.png) repeat !important;
+    background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
     height: 300%;
     background-position: 0px 0px;
     -webkit-animation: animate 10s linear infinite!important;
@@ -172,56 +168,6 @@ Public Kirka.io CSS by michaelpa#1996
 .changelog-date {
 	border: none !important;
 }
-
-/*
-.live-streams {
-    background: rgba(55, 55, 55, .61);
-    backdrop-filter: blur(5px);
-    position: fixed;
-    left: 95px;
-    top: 80px;
-    width: 300px !important;
-    height: 1200px;
-    border-left: 4px solid #ffffff1c;
-    -webkit-transition: 1s;
-    transition: 1s;
-	z-index: 999 !important;
-}
-
-.live-streams:before {
-    content: url(https://media.discordapp.net/attachments/523517791886770188/947364113770758194/pngfind.com-chevron-png-95287.png?width=30&height=30);
-    position: fixed;
-    right: 300px;
-    top: 15px;
-    transition: 0.2s;
-	z-index: 999 !important;
-}
-
-.live-streams:hover:before {
-    opacity: 0;
-}
-
-.live-streams:after {
-    content: "CSS by NizzQ#9235";
-    position: fixed;
-    top: 505px;
-    right: 115px;
-}
-
-.live-streams:hover {
-    left: -115px;
-}
-
-.live-streams .head {
-    display: none;
-}
-
-.live-streams .list {
-    width: 180px;
-    padding: 0 9px;
-    overflow: visible;
-}
-*/
 
 /* Login/Signup*/
 .auth-form {
@@ -332,6 +278,8 @@ Public Kirka.io CSS by michaelpa#1996
     background-image: url(https://cdn.discordapp.com/attachments/851731676731801661/1032013411145486396/michaelpa.gif) !important;
     background-size: 100% !important;
     background-position: 0, 0 !important;
+}
+.card >>> .avatar {
     border: 4px solid #101216 !important;
     background-color: #101216 !important;
 }
@@ -1019,239 +967,6 @@ Public Kirka.io CSS by michaelpa#1996
 .continue .border-bottom {
 	background: transparent !important;
 	box-shadow: none !important;
-}
-
-/* HUD */
-.mini-map-cont .name,
-.desktop-game-interface .info-key-cont,
-.list-weapons,
-.hp-title,
-.mWwn,
-.instruction {
-    display: none !important;
-}
-
-.cont-hp {
-    background: transparent !important;
-}
-
-.hp {
-    margin-right: 20%;
-}
-
-.hp-progress {
-    background: #8bff9f !important;
-}
-
-.desktop-game-interface .state {
-    position: fixed;
-    width: 500px !important;
-    top: 93%;
-    left: 37% !important;
-}
-
-.cont-endurance {
-    margin-left: 1.5%;
-    background: transparent !important;
-}
-
-.endurance-progress {
-	background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
-    background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
-}
-
-.weapons-cont {
-    position: fixed;
-    width: 100px;
-    top: 101%;
-    left: 5%;
-    margin-top: -100px;
-    margin-left: 252px;
-}
-
-.ammunition {
-    display: inline-block;
-    position: fixed;
-    left: calc(53% + 180px);
-}
-
-.kill-death {
-    margin-top: 60px;
-    margin-left: 2px;
-}
-
-.kill-death .kill,
-.kill-death .death {
-    background: transparent;
-    box-shadow: none;
-}
-
-.state-cont .timer {
-    position: fixed;
-    top: 18px;
-    background: transparent !important;
-    box-shadow: none !important;
-    font-size: 50px;
-}
-
-/* In Game Leaderboard */
-.tab-info {
-    background: rgba(55, 55, 55, .61) !important;
-	box-shadow: none !important;
-	border-radius: 0 !important;
-	border: 5px solid #ffffff1c;
-}
-
-.tab-info .head {
-	display: none;
-}
-
-.tab-info .player {
-	background: transparent !important;	
-}
-
-.tab-info .primary {
-	color: white !important;
-}
-
-.tab-info .nickname,
-.tab-info .player-right {
-	color: #87898c;
-}
-
-.tab-info .list {
-	color: white;
-	margin: 0 !important;
-}
-
-.tab-info .list .list-value:nth-child(1),
-.tab-info .list .list-value:nth-child(2),
-.tab-info .list .list-value:nth-child(3) {
-	visibility: hidden;
-}
-
-.tab-info .list .list-value:nth-child(1):after {
-	visibility: visible;
-	content: "K";
-	margin-left: -29px;
-}
-
-.tab-info .list .list-value:nth-child(2):after {
-	visibility: visible;
-	content: "D";
-	margin-left: -28px;
-}
-
-.tab-info .list .list-value:nth-child(3):after {
-	visibility: visible;
-	content: "S";
-	margin-left: -5px;
-}
-
-.tab-info .player-right svg {
-	display: none;
-}
-
-.achive-cont {
-  	content: url(https://media.discordapp.net/attachments/523517791886770188/956029712470253598/PikPng.com_roblox-head-png_965768.png?width=160&height=160) !important;
-  	position: fixed;
-  	right: 45%;
-}
-
-.kill-bar-item {
-	background: rgba(55, 55, 55, .61) !important;
-	border: 3px solid red;
-}
-
-.kill-bar-item .name {
-	color: #8badd6;
-}
-
-.kill-bar-item .name-kill {
-	color: #f1c876;
-}
-
-/* Chat */
-.chat {
-    margin-bottom: -53px;
-    border-radius: 5px;
-    -webkit-mask-image: linear-gradient(to bottom, transparent, black, black);
-}
-
-.chat .input-wrapper {
-    top: 400px !important;
-    width: 103%;
-    height: 15px;
-}
-
-.chat .name {
-    color: white;
-}
-
-.message{
-    color: #87898c !important;
-}
-
-.message .lvl {
-    color: #39ffd4;
-}
-
-/* End Screen */
-.end-modal .bottom {
-    display: none;
-}
-
-.end-modal .progress-line {
-    background: #4f4e4ead;
-}
-
-.end-modal .progress {
-    background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
-    background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
-}
-
-.end-modal .team-list-players .card-cont:nth-child(1),
-.end-modal .team-list-players .card-cont:nth-child(2),
-.end-modal .items {
-    background: transparent !important;
-    box-shadow: none !important;
-}
-
-.end-modal .team-list-players .label {
-    background: transparent;
-}
-
-.end-modal .label-text,
-.end-modal .points,
-.end-modal .lvl-leader {
-    color: white;
-}
-
-.end-modal .chat {
-    margin-bottom: -53px;
-    border-radius: 5px;
-    -webkit-mask-image: linear-gradient(to bottom, transparent, black, black);
-}
-
-.end-modal .chat .input-wrapper {
-    top: 400px !important;
-    width: 103%;
-    height: 130px;
-}
-
-.end-modal #WMNn {
-    width: 310px;
-    margin-left: 20px;
-}
-
-.end-modal .team-list-players .list .player {
-    background: transparent;
-}
-
-.end-modal .clan-tag {
-    -webkit-animation: glow 2s ease-in-out infinite alternate;
-    -moz-animation: glow 2s ease-in-out infinite alternate;
-    animation: glow 2s ease-in-out infinite alternate;
 }
 
 /* Reward Container */
