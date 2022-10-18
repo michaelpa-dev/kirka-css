@@ -289,7 +289,7 @@ Public Kirka.io CSS by michaelpa#1996
 .left-interface .profile {
     background: rgba(55, 55, 55, .61);
     backdrop-filter: blur(5px);
-    width: 2560px;
+    width: 1000%;
     border-bottom: 5px solid #ffffff1c;
 }
 
