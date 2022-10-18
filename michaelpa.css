@@ -81,8 +81,18 @@ Public Kirka.io CSS by michaelpa#1996
 		}
 }
 
- .clan-tag {
+.head-right > .clan-tag {
 	animation: rainbow 4s linear infinite;
+    padding-left: 20%;
+}
+
+.head-right > .nickname { 
+    background-image: url(https://cdn.discordapp.com/attachments/851731676731801661/1032013411145486396/michaelpa.gif);
+    align-items: center;
+    background-position: 0px, 0;
+    padding-left: 20%;
+    background-size: 15%;
+    background-repeat: no-repeat;
 }
 
 /* Background */
@@ -272,16 +282,6 @@ Public Kirka.io CSS by michaelpa#1996
     background: transparent !important;
 	margin-left: -18px;
 	border: none;
-}
-
-.avatar {
-    background-image: url(https://cdn.discordapp.com/attachments/851731676731801661/1032013411145486396/michaelpa.gif) !important;
-    background-size: 100% !important;
-    background-position: 0, 0 !important;
-}
-.card >>> .avatar {
-    border: 4px solid #101216 !important;
-    background-color: #101216 !important;
 }
 
 .left-interface .avatar-info:hover,
